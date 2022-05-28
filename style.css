@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700;900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+    background: #EBEBE9
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:1rem auto;
+    padding: 0.5rem 4rem;
+}
+.logo
+{
+    display: flex;
+    gap: 1rem;
+}
+#logo
+{
+    width: 15%;
+}
+#Logo-text
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin: auto 0;
+    color: black    ;
+}
+.account
+{
+    display: flex;
+    justify-content: space-between;
+}
+#user,#cart
+{
+    width: 25px;
+    padding-right: 2rem;
+}   
+.menu
+{
+    margin: auto;
+}
+.menu-items
+{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.menu-items a
+{
+    
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0,0,0,.3);
+    font-weight: 500;
+}
+.menu-items a:hover
+{
+    color: rgba(0,0,0,1)
+}
+
+/*--------------------------Banner Section------------------------------*/
+
+.banner
+{
+    display: flex;
+    width: 90%;
+    padding: 0 10%;
+}
+.text-area
+{
+    width: 60%;
+    padding: 5rem 0;
+}
+.text-area h1
+{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+#bbq
+{
+    width: 90%;
+    padding-top: 1rem;
+    
+}
+#explore
+{
+    padding: .5rem 4rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+.delivery
+{
+    display: flex;
+    padding-top: 1rem;
+}
+#delivery-icon
+{
+    width: 40px;
+    padding-right: 1rem;
+}
+.banner h3
+{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
