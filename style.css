@@ -74,6 +74,7 @@ header
     display: flex;
     width: 90%;
     padding: 0 10%;
+    
 }
 .text-area
 {
@@ -233,3 +234,131 @@ hr
 
     border-radius: 20px;
 }
+
+/*--------------------------Booking section--------------------------------*/
+
+.booking
+{
+    display: flex;
+    gap: 5rem;
+    width: 80%;
+    justify-content: center;
+
+    margin: auto;
+    padding: 4rem 0;
+
+}
+.booking-banner
+{
+    width: 80%;
+}
+.form-section
+{
+    width: 30%;
+}
+.form-section h1
+{
+    font-size: 40px;
+    font-weight: 400;
+}
+#booking-img
+{
+    width: 100%;
+}
+
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 45%;
+    display: inline-block;
+    
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+ #reserve {
+    height: 50px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+  }
+ button
+ {
+     cursor: pointer;
+ }
+  input
+  {
+      border-radius: 20px;
+  }
+
+
+  /*----------------------------service section-------------------------------------------------------*/
+
+  .service
+  {
+      background-color: white;
+      text-align: center;
+
+      padding: 3rem 0;
+  }
+  .service h4
+  {
+      color: red;
+
+  }
+  .service h1
+  {
+      font-size: 40px;
+      font-weight: 500;
+      padding: 1rem 0;
+  }
+  .chef-logo
+  {
+      width: 80px;
+  }
+  .gallery
+  {
+      display: flex;
+      gap: 1rem;
+      width: 80%;
+      
+      margin: auto;
+  }
