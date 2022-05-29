@@ -120,3 +120,116 @@ header
     margin-top: 1rem;
 }
 
+
+/*--------------------- Chef Section ------------------------------------*/
+.chef
+{
+    display: flex;
+    padding: 1rem 3rem;
+}
+.chef-img
+{
+    width: 40%;
+    text-align: center;
+}
+#chef-img
+{
+    width: 60%;
+    height: fit-content;
+}
+.chef-text
+{
+    width: 50%;
+}
+.chef-text h4
+{
+    font-weight: 400;
+    color: red;
+}
+.chef-text h1
+{
+    font-weight: 400;
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+.chef-text p
+{
+    width: 80%;
+    line-height: 25px;
+}
+hr
+{
+    border-top: 3px solid red;
+    width: 70%;
+    margin: 3rem auto;
+}
+.chef-icons
+{
+    width: 30px;
+    padding-right: 1rem;
+}
+.box 
+{
+    width: 80%;
+    padding: 2rem 0;
+}
+.box
+{
+    display: flex;
+    
+    gap: 2rem;
+}
+.chef-box
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+/*-----------------------Menu----------------------------*/
+.specials
+{
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+}
+.specials hr
+{
+    border-top: 3px solid black;
+    width: 20%;
+    margin-top: 1rem;
+}
+.specials h2
+{
+    font-size: 30px;
+    color: red;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.specials-item
+{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.spcial-menu
+{
+    width: 100%;
+    border-radius: 20px;
+}
+.special-p
+{
+    width: 90%;
+    
+}
+.order-button
+{
+    padding: .2rem 2rem;
+    margin: 1rem auto;
+
+    background-color: red;
+    border: none;
+    color: white;
+
+    border-radius: 20px;
+}
