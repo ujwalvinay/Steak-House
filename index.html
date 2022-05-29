@@ -123,6 +123,71 @@
         </div>
     </div>
     <div class="booking">
+        <div class="booking-banner">
+            <img src="assets/grilling.jpg" alt="booking-img" id="booking-img">
+        </div>
+        <div class="form-section">
+            <h1>Book a table</h1>
+            
+            <form action="reservation.php" method="post">
+                <div class="elem-group">
+                  <input type="text" id="name" name="visitor_name" placeholder="Full Name" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                  <input type="email" id="email" name="visitor_email" placeholder="Email ID" required>
+                </div>
+                <div class="elem-group">
+                  <input type="tel" id="phone" name="visitor_phone" placeholder="Phone Number" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="adult">Adults</label>
+                  <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="checkin-date">Check-in Date</label>
+                  <input type="date" id="checkin-date" name="checkin" required>
+                </div>
+               
+                <div class="elem-group">
+                  <select id="room-selection" name="room_preference" required>
+                      <option value="">Breakfast</option>
+                      
+                      <option value="adjoining">Lunch</option>
+                      <option value="adjacent">Dinner</option>
+                  </select>
+                </div>
+                
+                <button type="submit" id="reserve">Reserve Seats</button>
+              </form>
+        </div>
+    </div>
+    <div class="service">
+        <h4>Service We Offer</h4>
+        <h1>Our Best Service</h1>
+        <div class="gallery">
+            <div class="best-chef">
+                <img src="assets/chef.svg" alt="chef" class="chef-logo">
+                <h3>Best Chef</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                </p>
+            </div>
+            <div class="quality-food">
+                <img src="assets/dining.svg" alt="chef" class="chef-logo">
+                <h3>Quality Food Food</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                </p>
+            </div>
+            <div class="perfect-cook">
+                <img src="assets/cook-dish.svg" alt="cook-dish" >
+                <h3>Perfect Cook</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                </p>
+            
+            </div>
+        </div>
     </div>
 </body>
 </html>
