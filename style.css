@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700;900&display=swap');
 *
 {
     padding: 0;
@@ -362,3 +362,92 @@ hr
       
       margin: auto;
   }
+
+
+/*------------------------------- Testimonials --------------------------------*/
+
+.testimony
+{
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 3rem 1rem;
+}
+.testimony-grid
+{
+    display: flex;
+    gap: 1rem;
+}
+.profile-pic
+{
+    width: 70px;
+    height: fit-content;
+    border-radius: 25%;
+
+    padding-right: 2rem;
+}
+.testimony h1
+{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3rem 0;
+}
+.test-p
+{
+    width: 70%;
+    margin:2rem  3rem;  
+}
+.name-title
+{
+    margin: auto 0;
+}
+
+.testimony-block
+{
+    background-color: #EBEBE9;
+    padding: 3rem 0;
+    border-radius: 20px;
+}
+
+
+
+
+/*----------------------Footer Section ----------------------------------------------*/
+footer
+{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem 3rem;
+}
+.social-large
+{
+    width: 40px;
+}
+.social
+{
+    width: 40px;
+}
+.social-menu
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.footer-menu , a
+{
+    list-style: none;
+    text-decoration:none;
+    color: black;
+    line-height: 2rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.footer-menu :hover
+{
+    opacity: 1;
+}
+.logo-side > *
+{
+    padding-bottom: 2rem;
+}
