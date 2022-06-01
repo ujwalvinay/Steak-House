@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steak House</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 
-    
+
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -34,15 +37,17 @@
             <h4>We have the</h4>
             <h1>Best Steak</h1>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatibus numquam eaque delectus beatae accusantium. <br>
-                Quasi, temporibus! Autem totam, nobis ut laboriosam <br> voluptate soluta recusandae nam doloremque eum possimus magni quam?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatibus numquam eaque delectus
+                beatae accusantium. <br>
+                Quasi, temporibus! Autem totam, nobis ut laboriosam <br> voluptate soluta recusandae nam doloremque eum
+                possimus magni quam?
             </p>
             <button type="button" id="explore">Reserve Now</button>
             <div class="delivery">
                 <img src="assets/delivery-time.svg" alt="delivery-icon" id="delivery-icon">
                 <h3>Delivery Available</h3>
             </div>
-            
+
         </div>
         <div class="img-area">
             <img src="assets/food-g5ef797398_1920.jpg" alt="bbq" id="bbq">
@@ -57,8 +62,12 @@
             <h4>About Us</h4>
             <h1>We Provide The Fresh and Tasty Steak</h1>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates in excepturi velit cum repudiandae debitis repellat iure ab earum? Maiores qui unde debitis esse magni, nisi at consequatur repudiandae.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates in excepturi velit cum repudiandae debitis repellat iure ab earum? Maiores qui unde debitis esse magni, nisi at consequatur repudiandae.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates in excepturi velit cum
+                repudiandae debitis repellat iure ab earum? Maiores qui unde debitis esse magni, nisi at consequatur
+                repudiandae.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates in excepturi velit cum
+                repudiandae debitis repellat iure ab earum? Maiores qui unde debitis esse magni, nisi at consequatur
+                repudiandae.
             </p>
             <div class="box">
                 <div>
@@ -81,20 +90,20 @@
                         Lorem ipsum dolor sit amet
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
     </div>
     <div class="specials">
-        <h2>Today's Special</h2 >
+        <h2>Today's Special</h2>
         <hr>
         <div class="specials-item">
             <div class="beef-ribs">
                 <img src="assets/beef-ribs.jpg" alt="beef-ribs" class="spcial-menu">
                 <h3>Beef Ribs</h3>
                 <p class="special-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
                 <button type="button " class="order-button"> Order Now </button>
             </div>
@@ -102,7 +111,7 @@
                 <img src="assets/kebab.jpg" alt="kebab" class="spcial-menu">
                 <h3>Doner Kebab</h3>
                 <p class="special-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
                 <button type="button " class="order-button"> Order Now </button>
             </div>
@@ -110,7 +119,7 @@
                 <img src="assets/duck-roast.jpg" alt="Duck-roast" class="spcial-menu">
                 <h3>Roasted Duck</h3>
                 <p class="special-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
                 <button type="button " class="order-button"> Order Now </button>
             </div>
@@ -118,7 +127,7 @@
                 <img src="assets/rosted-pork.jpg" alt="pork" class="spcial-menu">
                 <h3>Roasted Pig</h3>
                 <p class="special-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
                 <button type="button " class="order-button"> Order Now </button>
             </div>
@@ -130,37 +139,39 @@
         </div>
         <div class="form-section">
             <h1>Book a table</h1>
-            
+
             <form action="reservation.php" method="post">
                 <div class="elem-group">
-                  <input type="text" id="name" name="visitor_name" placeholder="Full Name" pattern=[A-Z\sa-z]{3,20} required>
+                    <input type="text" id="name" name="visitor_name" placeholder="Full Name" pattern=[A-Z\sa-z]{3,20}
+                        required>
                 </div>
                 <div class="elem-group">
-                  <input type="email" id="email" name="visitor_email" placeholder="Email ID" required>
+                    <input type="email" id="email" name="visitor_email" placeholder="Email ID" required>
                 </div>
                 <div class="elem-group">
-                  <input type="tel" id="phone" name="visitor_phone" placeholder="Phone Number" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                    <input type="tel" id="phone" name="visitor_phone" placeholder="Phone Number"
+                        pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
                 </div>
                 <div class="elem-group inlined">
-                  <label for="adult">Adults</label>
-                  <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                    <label for="adult">Adults</label>
+                    <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
                 </div>
                 <div class="elem-group inlined">
-                  <label for="checkin-date">Check-in Date</label>
-                  <input type="date" id="checkin-date" name="checkin" required>
+                    <label for="checkin-date">Check-in Date</label>
+                    <input type="date" id="checkin-date" name="checkin" required>
                 </div>
-               
+
                 <div class="elem-group">
-                  <select id="room-selection" name="room_preference" required>
-                      <option value="">Breakfast</option>
-                      
-                      <option value="adjoining">Lunch</option>
-                      <option value="adjacent">Dinner</option>
-                  </select>
+                    <select id="room-selection" name="room_preference" required>
+                        <option value="">Breakfast</option>
+
+                        <option value="adjoining">Lunch</option>
+                        <option value="adjacent">Dinner</option>
+                    </select>
                 </div>
-                
+
                 <button type="submit" id="reserve">Reserve Seats</button>
-              </form>
+            </form>
         </div>
     </div>
     <div class="service">
@@ -171,23 +182,23 @@
                 <img src="assets/chef.svg" alt="chef" class="chef-logo">
                 <h3>Best Chef</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
             </div>
             <div class="quality-food">
                 <img src="assets/dining.svg" alt="chef" class="chef-logo">
                 <h3>Quality Food Food</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
             </div>
             <div class="perfect-cook">
-                <img src="assets/cook-dish.svg" alt="cook-dish" >
+                <img src="assets/cook-dish.svg" alt="cook-dish">
                 <h3>Perfect Cook</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quidem maiores cumque
                 </p>
-            
+
             </div>
         </div>
     </div>
@@ -195,7 +206,7 @@
         <h1>What People Say About Us</h1>
         <div class="testimony-grid">
             <div class="person-1 testimony-block">
-                <div class="banner">
+                <div class="testimony-banner">
                     <img src="assets/profile-icon.png" alt="img" class="profile-pic">
                     <div class="name-title">
                         <h4 class="h4-white">Daniel Clifford</h4>
@@ -203,11 +214,12 @@
                     </div>
                 </div>
                 <p class="test-p">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam distinctio omnis nulla suscipit
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam distinctio omnis nulla
+                    suscipit
                 </p>
             </div>
             <div class="person-2 testimony-block">
-                <div class="banner">
+                <div class="testimony-banner">
                     <img src="assets/profile-icon.png" alt="img" class="profile-pic">
                     <div class="name-title">
                         <h4 class="h4-white">Alexandra</h4>
@@ -215,11 +227,12 @@
                     </div>
                 </div>
                 <p class="test-p">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam distinctio omnis nulla suscipit 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam distinctio omnis nulla
+                    suscipit
                 </p>
             </div>
             <div class="person-3 testimony-block">
-                <div class="banner">
+                <div class="testimony-banner">
                     <img src="assets/profile-icon.png" alt="img" class="profile-pic">
                     <div class="name-title">
                         <h4 class="h4-white">Jannet</h4>
@@ -227,7 +240,8 @@
                     </div>
                 </div>
                 <p class="test-p">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam distinctio omnis nulla suscipit 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam distinctio omnis nulla
+                    suscipit
                 </p>
             </div>
         </div>
@@ -245,24 +259,30 @@
                 </p>
             </div>
         </div>
+        <div class="footer-interaction">
+
+   
         <div class="footer-nav">
-             <ul class="footer-menu">
+            <ul class="footer-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Restaurant</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Pricing</a></li>
-             </ul>
+            </ul>
         </div>
         <div class="social-media">
             <ul class="social-menu">
                 <li><a href="#"><img src="assets/social-media/facebook.svg" alt="facebook" class="social"></a></li>
-                <li><a href="#"><img src="assets/social-media/instagram-logo.svg" alt="Instagram" class="social-large"></a></li>
+                <li><a href="#"><img src="assets/social-media/instagram-logo.svg" alt="Instagram"
+                            class="social-large"></a></li>
                 <li><a href="#"><img src="assets/social-media/linkedin.svg" alt="Linkedin" class="social"></a></li>
                 <li><a href="#"><img src="assets/social-media/twitter.svg" alt="twitter" class="social-large"></a></li>
                 <li><a href="#"><img src="assets/social-media/youtube.svg" alt="Youtube" class="social"></a></li>
             </ul>
         </div>
+    </div>
     </footer>
 </body>
+
 </html>
