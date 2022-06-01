@@ -1,0 +1,67 @@
+@media screen and (max-width: 1201px) {
+  .chef {
+    align-items: center;
+  }
+  .chef-img,
+  .chef-text,
+  .box,
+  .chef-text p,
+  .booking-banner,
+  .form-section {
+    width: initial;
+  }
+  .booking {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .banner {
+    flex-direction: column;
+  }
+  .chef {
+    padding: 1rem 1.2rem;
+  }
+  .booking {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery {
+    width: 90%;
+  }
+  .test-p {
+    margin: initial;
+    padding: 1rem;
+  }
+  .testimony-block {
+    gap: 0.5rem;
+  }
+  .footer-interaction {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 801px) {
+  .chef {
+    flex-direction: column-reverse;
+  }
+  .specials-item {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .testimony-grid,
+  .gallery {
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,453 +1,391 @@
- @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700;900&display=swap');
-*
-{
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
-body
-{
-    overflow-x: hidden;
-    background: #EBEBE9
+body {
+  overflow-x: hidden;
+  background: #ebebe9;
 }
-header
-{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin:1rem auto;
-    padding: 0.5rem 4rem;
+header {
+  display: flex;
+  gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
 }
-.logo
-{
-    display: flex;
-    gap: 1rem;
+.logo {
+  display: flex;
+  gap: 1rem;
 }
-#logo
-{
-    width: 15%;
+#logo {
+  width: 15%;
 }
-#Logo-text
-{
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    margin: auto 0;
-    color: black    ;
+#Logo-text {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin: auto 0;
+  color: black;
 }
-.account
-{
-    display: flex;
-    justify-content: space-between;
+.account {
+  display: flex;
+  gap: 0.5rem;
 }
-#user,#cart
-{
-    width: 25px;
-    padding-right: 2rem;
-}   
-.menu
-{
-    margin: auto;
+
+#user,
+#cart {
+  width: 25px;
 }
-.menu-items
-{
-    display: flex;
-    gap: 3rem;
-    list-style: none;
+.menu {
+  margin: auto;
 }
-.menu-items a
-{
-    
-    text-decoration: none;
-    font-size: 18px;
-    color: rgba(0,0,0,.3);
-    font-weight: 500;
+.menu-items {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
 }
-.menu-items a:hover
-{
-    color: rgba(0,0,0,1)
+.menu-items a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+.menu-items a:hover {
+  color: rgba(0, 0, 0, 1);
 }
 
 /*--------------------------Banner Section------------------------------*/
 
-.banner
-{
-    display: flex;
-    width: 90%;
-    padding: 0 10%;
-    
+.banner {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  width: 90%;
 }
-.text-area
-{
-    width: 60%;
-    padding: 5rem 0;
+.text-area {
+  padding: 5rem 0;
 }
-.text-area h1
-{
-    font-size: 70px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
+.text-area h1 {
+  font-size: 70px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
-#bbq
-{
-    width: 90%;
-    padding-top: 1rem;
-    
+#bbq {
+  width: 40rem;
+  max-width: 90%;
 }
-#explore
-{
-    padding: .5rem 4rem;
-    margin-top: 3rem;
-    border-radius: 10px;
-    color: white;
-    border: none;
-    background-color: red;
-    font-size: 18px;
-    font-weight: 500;
+#explore {
+  padding: 0.5rem 4rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: red;
+  font-size: 18px;
+  font-weight: 500;
 }
-.delivery
-{
-    display: flex;
-    padding-top: 1rem;
+.delivery {
+  display: flex;
+  padding-top: 1rem;
 }
-#delivery-icon
-{
-    width: 40px;
-    padding-right: 1rem;
+#delivery-icon {
+  width: 40px;
+  padding-right: 1rem;
 }
-.banner h3
-{
-    font-weight: 400;
-    font-size: 15px;
-    margin-top: 1rem;
+.banner h3 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 1rem;
 }
-
 
 /*--------------------- Chef Section ------------------------------------*/
-.chef
-{
-    display: flex;
-    padding: 1rem 3rem;
+.chef {
+  display: flex;
+  padding: 1rem 3rem;
 }
-.chef-img
-{
-    width: 40%;
-    text-align: center;
+.chef-img {
+  width: 40%;
+  text-align: center;
 }
-#chef-img
-{
-    width: 60%;
-    height: fit-content;
+#chef-img {
+  width: 60%;
 }
-.chef-text
-{
-    width: 50%;
+.chef-text {
+  width: 50%;
 }
-.chef-text h4
-{
-    font-weight: 400;
-    color: red;
+.chef-text h4 {
+  font-weight: 400;
+  color: red;
 }
-.chef-text h1
-{
-    font-weight: 400;
-    font-size: 35px;
-    padding-bottom: 1rem;
+.chef-text h1 {
+  font-weight: 400;
+  font-size: 35px;
+  padding-bottom: 1rem;
 }
-.chef-text p
-{
-    width: 80%;
-    line-height: 25px;
+.chef-text p {
+  width: 80%;
+  line-height: 25px;
 }
-hr
-{
-    border-top: 3px solid red;
-    width: 70%;
-    margin: 3rem auto;
+hr {
+  border-top: 3px solid red;
+  width: 70%;
+  margin: 3rem auto;
 }
-.chef-icons
-{
-    width: 30px;
-    padding-right: 1rem;
+.chef-icons {
+  width: 30px;
+  padding-right: 1rem;
 }
-.box 
-{
-    width: 80%;
-    padding: 2rem 0;
+.box {
+  width: 80%;
+  padding: 2rem 0;
 }
-.box
-{
-    display: flex;
-    
-    gap: 2rem;
+.box {
+  display: flex;
+
+  gap: 2rem;
 }
-.chef-box
-{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
+.chef-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
 /*-----------------------Menu----------------------------*/
-.specials
-{
-    padding: 1rem;
-    text-align: center;
-    background-color: white;
+.specials {
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
 }
-.specials hr
-{
-    border-top: 3px solid black;
-    width: 20%;
-    margin-top: 1rem;
+.specials hr {
+  border-top: 3px solid black;
+  width: 20%;
+  margin-top: 1rem;
 }
-.specials h2
-{
-    font-size: 30px;
-    color: red;
-    font-weight: 500;
-    margin-top: 1rem;
+.specials h2 {
+  font-size: 30px;
+  color: red;
+  font-weight: 500;
+  margin-top: 1rem;
 }
-.specials-item
-{
-    display: flex;
-    gap: 1rem;
-    padding: 1rem;
+.specials-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
 }
-.spcial-menu
-{
-    width: 100%;
-    border-radius: 20px;
+.spcial-menu {
+  width: 100%;
+  border-radius: 20px;
 }
-.special-p
-{
-    width: 90%;
-    
+.special-p {
+  width: 90%;
 }
-.order-button
-{
-    padding: .2rem 2rem;
-    margin: 1rem auto;
+.order-button {
+  padding: 0.2rem 2rem;
+  margin: 1rem auto;
 
-    background-color: red;
-    border: none;
-    color: white;
+  background-color: red;
+  border: none;
+  color: white;
 
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 /*--------------------------Booking section--------------------------------*/
 
-.booking
-{
-    display: flex;
-    gap: 5rem;
-    width: 80%;
-    justify-content: center;
+.booking {
+  display: flex;
+  gap: 5rem;
+  width: 80%;
+  justify-content: center;
 
-    margin: auto;
-    padding: 4rem 0;
-
+  margin: auto;
+  padding: 4rem 0;
 }
-.booking-banner
-{
-    width: 80%;
+.booking-banner {
+  width: 80%;
 }
-.form-section
-{
-    width: 30%;
+.form-section {
+  width: 30%;
 }
-.form-section h1
-{
-    font-size: 40px;
-    font-weight: 400;
+.form-section h1 {
+  font-size: 40px;
+  font-weight: 400;
 }
-#booking-img
-{
-    width: 100%;
+#booking-img {
+  width: 35rem;
+  max-width: 100%;
 }
 
-  div.elem-group {
-    margin: 20px 0;
-  }
-  
-  div.elem-group.inlined {
-    width: 45%;
-    display: inline-block;
-    
-    margin-left: 1%;
-  }
-  
-  label {
-    display: block;
-    font-family: 'Nanum Gothic';
-    padding-bottom: 10px;
-    font-size: 1.25em;
-  }
-  
-  input, select, textarea {
-    border-radius: 2px;
-    border: 2px solid #777;
-    box-sizing: border-box;
-    font-size: 1.25em;
-    font-family: 'Nanum Gothic';
-    width: 100%;
-    padding: 10px;
-  }
-  
-  div.elem-group.inlined input {
-    width: 95%;
-    display: inline-block;
-  }
-  
-  textarea {
-    height: 250px;
-  }
-  
-  hr {
-    border: 1px dotted #ccc;
-  }
-  
- #reserve {
-    height: 50px;
-    background: red;
-    border: none;
-    color: white;
-    font-size: 1.25em;
-    font-family: 'Nanum Gothic';
-    border-radius: 4px;
-    cursor: pointer;
+div.elem-group {
+  margin: 20px 0;
+}
 
-    padding: .5rem 2rem;
-    margin-top: 1rem;
-  }
- button
- {
-     cursor: pointer;
- }
-  input
-  {
-      border-radius: 20px;
-  }
+div.elem-group.inlined {
+  width: 45%;
+  display: inline-block;
 
+  margin-left: 1%;
+}
 
-  /*----------------------------service section-------------------------------------------------------*/
+label {
+  display: block;
+  font-family: "Nanum Gothic";
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
 
-  .service
-  {
-      background-color: white;
-      text-align: center;
+input,
+select,
+textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: "Nanum Gothic";
+  width: 100%;
+  padding: 10px;
+}
 
-      padding: 3rem 0;
-  }
-  .service h4
-  {
-      color: red;
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
 
-  }
-  .service h1
-  {
-      font-size: 40px;
-      font-weight: 500;
-      padding: 1rem 0;
-  }
-  .chef-logo
-  {
-      width: 80px;
-  }
-  .gallery
-  {
-      display: flex;
-      gap: 1rem;
-      width: 80%;
-      
-      margin: auto;
-  }
+textarea {
+  height: 250px;
+}
 
+hr {
+  border: 1px dotted #ccc;
+}
+
+#reserve {
+  height: 50px;
+  background: red;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: "Nanum Gothic";
+  border-radius: 4px;
+  cursor: pointer;
+
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+}
+button {
+  cursor: pointer;
+}
+input {
+  border-radius: 20px;
+}
+
+/*----------------------------service section-------------------------------------------------------*/
+
+.service {
+  background-color: white;
+  text-align: center;
+
+  padding: 3rem 0;
+}
+.service h4 {
+  color: red;
+}
+.service h1 {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+.chef-logo {
+  width: 80px;
+}
+.gallery {
+  display: flex;
+  gap: 1rem;
+  width: 80%;
+
+  margin: auto;
+}
 
 /*------------------------------- Testimonials --------------------------------*/
 
-.testimony
-{
-    padding: 2rem 1rem;
-    background-color: white;
-    margin: 3rem 1rem;
+.testimony {
+  padding: 2rem 1rem;
+  background-color: white;
+  margin: 3rem 1rem;
 }
-.testimony-grid
-{
-    display: flex;
-    gap: 1rem;
+.testimony-grid {
+  display: flex;
+  gap: 1rem;
 }
-.profile-pic
-{
-    width: 70px;
-    height: fit-content;
-    border-radius: 25%;
-
-    padding-right: 2rem;
+.profile-pic {
+  width: 70px;
+  height: fit-content;
+  border-radius: 25%;
 }
-.testimony h1
-{
-    font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-    padding: 3rem 0;
-}
-.test-p
-{
-    width: 70%;
-    margin:2rem  3rem;  
-}
-.name-title
-{
-    margin: auto 0;
+.testimony h1 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding: 3rem 0;
 }
 
-.testimony-block
-{
-    background-color: #EBEBE9;
-    padding: 3rem 0;
-    border-radius: 20px;
+.name-title {
+  margin: auto 0;
 }
 
-
-
+.testimony-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebe9;
+  padding: 3rem 0;
+  border-radius: 20px;
+  text-align: center;
+  gap: 1.5rem;
+}
+.testimony-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /*----------------------Footer Section ----------------------------------------------*/
-footer
-{
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+.footer-interaction {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 1.5rem;
+}
 
-    padding: 1rem 3rem;
+.social-large {
+  width: 40px;
 }
-.social-large
-{
-    width: 40px;
+.social {
+  width: 40px;
 }
-.social
-{
-    width: 40px;
+.social-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
-.social-menu
-{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
+.footer-menu,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  line-height: 2rem;
+  font-weight: 500;
+  opacity: 0.8;
 }
-.footer-menu , a
-{
-    list-style: none;
-    text-decoration:none;
-    color: black;
-    line-height: 2rem;
-    font-weight: 500;
-    opacity: 0.8;
+.footer-menu :hover {
+  opacity: 1;
 }
-.footer-menu :hover
-{
-    opacity: 1;
-}
-.logo-side > *
-{
-    padding-bottom: 2rem;
+.logo-side > * {
+  padding-bottom: 2rem;
 }
